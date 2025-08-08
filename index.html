@@ -1,4 +1,16 @@
 <!DOCTYPE html>
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Frame-Options", "value": "ALLOWALL" },
+        { "key": "Content-Security-Policy", "value": "frame-ancestors 'self' https://hissuma.com https://www.hissuma.com;" }
+      ]
+    }
+  ]
+}
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -397,4 +409,5 @@
         
     </script>
 </body>
+
 </html>
