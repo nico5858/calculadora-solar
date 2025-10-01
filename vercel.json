@@ -5,7 +5,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "frame-ancestors 'self' https://hissuma.com https://www.hissuma.com https://*.mitiendanube.com https://hissuma-materiales.com.ar;"
+          "value": "frame-ancestors 'self' https://hissuma.com https://www.hissuma.com https://hissuma.mitiendanube.com https://hissuma-materiales.com.ar;"
         }
       ]
     }
